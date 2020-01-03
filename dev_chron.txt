@@ -1,0 +1,31 @@
+Brad's pipenv cheat sheet:
+https://gist.github.com/bradtraversy/c70a93d6536ed63786c434707b898d55
+
+Going to go through this tutorial
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+python -m pip install --upgrade pip
+pip install pipenv
+
+# Create shell
+pipenv shell
+
+import sys
+sys.executable
+says virtual environment stored here:
+C:\\Users\\user\\.virtualenvs\\MaxsFlaskProject-FoktuD9_\\Scripts\\python.exe
+
+Had to reload VC so the environment showed up for the project
+
+pipenv install flask
+    checked, it made addition to Pipfile
+
+remember to run: 
+pipenv shell
+so terminal is running same environment
+
+pipenv install flask-sqlalchemy
+pipenv install flask-migrate (makes migrations/table changes easier in future?)
+pipenv install alembic
+
+
