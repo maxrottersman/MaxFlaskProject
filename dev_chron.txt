@@ -28,4 +28,8 @@ pipenv install flask-sqlalchemy
 pipenv install flask-migrate (makes migrations/table changes easier in future?)
 pipenv install alembic
 
+# Create repo on github that pushed folder I was working on, on studio pc
+git remote add origin https://github.com/maxrottersman/MaxFlaskProject.git
+git push -u origin master
+
 
