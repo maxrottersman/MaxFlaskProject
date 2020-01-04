@@ -32,4 +32,11 @@ pipenv install alembic
 git remote add origin https://github.com/maxrottersman/MaxFlaskProject.git
 git push -u origin master
 
+On Home PC, couldn't figure out how to clone from VC, so openned
+git cmd windows:
+git clone  https://github.com/maxrottersman/MaxFlaskProject.git .
+(if already a .git folder, delete, above need empty folder)
+(also, weird character in line so got fatal flaw error before fix)
+
+
 
