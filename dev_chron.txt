@@ -7,6 +7,14 @@ https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 python -m pip install --upgrade pip
 pip install pipenv
 
+python -m pip install flask --user
+python -m pip install flask-sqlalchemy --user
+
+I guess Flask is an exe because I need in windows
+SET FLASK_APP = 'name of py file in folder runing from'
+
+
+############## NO LONGER USER PIPENV ##############
 # Create shell
 pipenv shell
 
@@ -33,10 +41,23 @@ git remote add origin https://github.com/maxrottersman/MaxFlaskProject.git
 git push -u origin master
 
 On Home PC, couldn't figure out how to clone from VC, so openned
-git cmd windows:
+git cmd window in folder:
 git clone  https://github.com/maxrottersman/MaxFlaskProject.git .
 (if already a .git folder, delete, above need empty folder)
 (also, weird character in line so got fatal flaw error before fix)
+Now VC has repo and will push with I click circle arrows
+
+Interesting.  When I create a virtual python environment it used
+the pipfile from my studio PC and loaded in flask, sqlalchemy, 
+I guess that's what it should do, so if I add a module
+will need to figure how to re-load pipfile in other system
+
+Problem when I run flask I get long error ending with:
+ModuleNotFoundError: No module named 'markupsafe'
+
+1/4/2020
+Okay, I can't figure it out, so going to use root python and keep list of
+modulates to manually add in any other environment.
 
 
 
