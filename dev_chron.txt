@@ -12,6 +12,12 @@ python -m pip install flask-sqlalchemy --user
 
 I guess Flask is an exe because I need in windows
 SET FLASK_APP = 'name of py file in folder runing from'
+SET FLASK_APP=flask_demo_bootstrap.py
+
+Then in terminal:
+flask run
+
+
 
 
 ############## NO LONGER USER PIPENV ##############
