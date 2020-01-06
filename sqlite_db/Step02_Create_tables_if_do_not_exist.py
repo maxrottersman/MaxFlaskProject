@@ -1,6 +1,7 @@
 #import sqlite3
 # For cross-db table definitions
 from sqlalchemy import create_engine
+# Also see: https://www.pythonsheets.com/notes/python-sqlalchemy.html#inspect-get-database-information
 from sqlalchemy import inspect
 # To work with files on any OS
 from pathlib import Path
